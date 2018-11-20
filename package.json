@@ -1,0 +1,17 @@
+{
+  "name": "azure-web-apps-configuration-table-exporter",
+  "version": "0.1.0",
+  "description": "Create CSV of configuration, app settings, and connection strings for all Azure Web Apps in the current Azure CLI subscription.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ritter Insurance Marketing",
+  "license": "MIT",
+  "dependencies": {
+    "fast-csv": "^2.4.1",
+    "flatmap": "0.0.3",
+    "minimist": "^1.2.0",
+    "shelljs": "^0.8.3"
+  }
+}
